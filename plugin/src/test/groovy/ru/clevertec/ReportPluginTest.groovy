@@ -10,7 +10,7 @@ import spock.lang.Specification
 /**
  * A simple unit test for the 'ru.clevertec.greeting' plugin.
  */
-class ReportPluginPluginTest extends Specification {
+class ReportPluginTest extends Specification {
     def "plugin registers task"() {
         given:
         def project = ProjectBuilder.builder().build()
